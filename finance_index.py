@@ -92,24 +92,12 @@ if __name__ == "__main__":
         "금: "+gold[0]+" "+gold[1]+"\n"+\
         "\n"+usa_debt[0]+": "+usa_debt[1] +"\n"+bitcoin
 
-    # print(send_text)    
-    # print(kospi[0])
-    # print(kosdaq[0])
-    # print(usd[0])
-    # print(oil[0])
-    # print(gold[0])
-    # print(usa_debt[0])
-    # print(bitcoin)
-
-    # ### 개인 Chat-id 텔레그램 보내기 
-    # my_token = '1766195485:AAHrnU9jyoq-DXyRP1ETaFX9TN8k9bOQUT4' ## neos token
-    # bot = telegram.Bot(token= my_token)  
-    # id = '1643988688'  ##neos 개인 chatid
+   
     
     ### 정인 Chat-id 텔레그램 보내기     
-    my_token = '1798054073:AAGpfzNhphEL2QhFUEPFPKxPPG-BwxKUDaw' ## mvpcouple token
+    my_token = 'token' ## mvpcouple token
     bot = telegram.Bot(token= my_token)  
-    id = '-575008584'  ##neos 개인 chatid    
+    id = 'chat_id'  ##neos 개인 chatid    
     
     bot.sendMessage(chat_id=id, text=send_text)
 
